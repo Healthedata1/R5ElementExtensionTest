@@ -2,7 +2,7 @@ resourceType: StructureDefinition
 id: us-core-medicationstatement
 
 # url: http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationstatement
-url:  http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement
+url:  http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement
 
 name: USCoreMedicationStatement
 title: US Core MedicationStatement
@@ -92,7 +92,7 @@ differential:
         # description: >-
         #   A code specifying the state of the statement.  Generally, this will be
         #   active or completed state.
-        valueSet: 'http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status'
+        valueSet: 'http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status'
       mustSupport: true
 
 

@@ -1,7 +1,7 @@
 {
     "resourceType": "StructureDefinition",
     "id": "us-core-medicationstatement",
-    "url": "http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement",
+    "url": "http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement",
     "name": "USCoreMedicationStatement",
     "title": "US Core MedicationStatement",
     "status": "active",
@@ -104,7 +104,7 @@
                 "path": "MedicationStatement.status",
                 "binding": {
                     "strength": "required",
-                    "valueSet": "http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status"
+                    "valueSet": "http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status"
                 },
                 "mustSupport": true
             },

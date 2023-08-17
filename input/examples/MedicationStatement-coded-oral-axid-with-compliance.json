@@ -3,7 +3,7 @@
     "id": "coded-oral-axid-with-compliance",
     "meta": {
         "profile": [
-            "http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"
+            "http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"
         ],
         "extension": [
             {

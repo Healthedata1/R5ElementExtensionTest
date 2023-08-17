@@ -2,7 +2,7 @@ resourceType: ValueSet
 id: uscore-medicationstatement-status
 
 # url: 'http://hl7.org/fhir/ValueSet/uscore-medicationstatement-status'
-url: 'http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status'
+url: 'http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status'
 
 version: 4.0.1
 name: USCoreMedicationstatementStatus

@@ -10,17 +10,17 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: uscdi4-sandbox
+id: testing-sandbox
 extension:
   - url: >-
       http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
     valueCode: trial-use
   - url: 'http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm'
     valueInteger: 1
-canonical: http://www.fhir.org/guides/uscdi4-sandbox
+canonical: http://www.fhir.org/guides/testing-sandbox
 version: 0.0.0
-name: USCDI4_1Sandbox
-title: HealtheData1 USCDI4 Sandbox
+name: Testing_Sandbox
+title: HealtheData1 Testing Sandbox
 status: active
 publisher:
   name: Health eData Inc
@@ -29,22 +29,22 @@ contact:
       - system: email
         value: 'mailto:ehaas@healthedatainc.com'
 jurisdiction: 'urn:iso:std:iso:3166#US'
-description: This is a **Healthedata1** sandbox for creation of USCDI4 resources and examples
+description: This is a **Healthedata1**  testing sandbox for creation of R4 resources with R5 element extension examples
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
   hl7.fhir.us.core: 6.1.0
-  hl7.fhir.uv.sdc: 3.0.0
-  hl7.fhir.uv.bulkdata: 2.0.0
-  hl7.fhir.uv.smart-app-launch: 2.0.0
-  us.nlm.vsac:
-      uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
-      version: 0.3.0
-      id: vsac
-  us.cdc.phinvads:
-    id: uscdcphinvads
-    uri: 'http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads'
-    version: 0.12.0
+  # hl7.fhir.uv.sdc: 3.0.0
+  # hl7.fhir.uv.bulkdata: 2.0.0
+  # hl7.fhir.uv.smart-app-launch: 2.0.0
+  # us.nlm.vsac:
+  #     uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
+  #     version: 0.3.0
+  #     id: vsac
+  # us.cdc.phinvads:
+  #   id: uscdcphinvads
+  #   uri: 'http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads'
+  #   version: 0.12.0
   hl7.fhir.uv.extensions.r4: 1.0.0  # for using R5 elements as extensions not working
 
 
