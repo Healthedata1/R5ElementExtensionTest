@@ -1,5 +1,5 @@
 {
-  "date" : "Thu, 17 Aug, 2023 06:25:06 +0000",
+  "date" : "Thu, 17 Aug, 2023 17:47:41 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
@@ -8,118 +8,47 @@
       "processes" : [
         {
           "activity" : "load",
-          "start" : 93,
-          "length" : 1135
+          "start" : 98,
+          "length" : 688
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 96,
-          "length" : 6
+          "start" : 100,
+          "length" : 4
         },
         {
           "activity" : "generateNarratives",
-          "start" : 96,
-          "length" : 1153
+          "start" : 100,
+          "length" : 716
         },
         {
           "activity" : "validate",
-          "start" : 103,
-          "length" : 1575
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 104,
-          "length" : 1
+          "start" : 105,
+          "length" : 1470
         },
         {
           "activity" : "generate1",
-          "start" : 110,
-          "length" : 191
+          "start" : 112,
+          "length" : 274
         },
         {
           "activity" : "generate2",
-          "start" : 112,
-          "length" : 265
-        },
-        {
-          "activity" : "generateValidationPack",
-          "start" : 387,
-          "length" : 3
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 400,
-          "length" : 1
-        }
-      ]
-    },
-    {
-      "name" : "input/resources/StructureDefinition-uscore-medicationstatement.json",
-      "size" : 16322,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 91,
-          "length" : 552
-        },
-        {
-          "activity" : "loadInfo",
-          "start" : 92,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 92,
-          "length" : 631
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 94,
-          "length" : 2514
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 98,
-          "length" : 2409
-        },
-        {
-          "activity" : "validate",
-          "start" : 101,
-          "length" : 1464
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 104,
-          "length" : 1
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 104,
-          "length" : 2
-        },
-        {
-          "activity" : "generate1",
-          "start" : 110,
-          "length" : 451
-        },
-        {
-          "activity" : "generate2",
-          "start" : 112,
-          "length" : 5514
+          "start" : 116,
+          "length" : 264
         },
         {
           "activity" : "makeDependencies",
-          "start" : 185,
+          "start" : 190,
           "length" : 1
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 387,
-          "length" : 28
+          "start" : 388,
+          "length" : 4
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 400,
+          "start" : 402,
           "length" : 1
         }
       ]
@@ -130,79 +59,99 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 92,
+          "start" : 97,
           "length" : 14
         },
         {
-          "activity" : "load-configure",
-          "start" : 92,
-          "length" : 1
-        },
-        {
           "activity" : "load",
-          "start" : 92,
-          "length" : 25
-        },
-        {
-          "activity" : "load",
-          "start" : 93,
-          "length" : 1
+          "start" : 97,
+          "length" : 19
         },
         {
           "activity" : "generateNarratives",
-          "start" : 100,
-          "length" : 238
+          "start" : 101,
+          "length" : 279
         },
         {
           "activity" : "validate",
-          "start" : 100,
-          "length" : 703
+          "start" : 103,
+          "length" : 770
         },
         {
           "activity" : "generate1",
-          "start" : 110,
-          "length" : 16
+          "start" : 112,
+          "length" : 43
         },
         {
           "activity" : "generate2",
-          "start" : 118,
-          "length" : 64710
+          "start" : 116,
+          "length" : 68111
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 387,
+          "start" : 388,
           "length" : 1
         }
       ]
     },
     {
-      "name" : "input/examples/medicationstatement-self-tylenol-with-compliance.json",
-      "size" : 2673,
+      "name" : "input/resources/StructureDefinition-uscore-medicationstatement.json",
+      "size" : 16322,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 92,
-          "length" : 38
+          "start" : 97,
+          "length" : 409
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 97,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 97,
+          "length" : 363
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 98,
+          "length" : 1613
         },
         {
           "activity" : "generateNarratives",
-          "start" : 100,
-          "length" : 102
+          "start" : 101,
+          "length" : 1556
         },
         {
           "activity" : "validate",
-          "start" : 104,
-          "length" : 3422
+          "start" : 103,
+          "length" : 1488
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 106,
+          "length" : 2
         },
         {
           "activity" : "generate1",
-          "start" : 110,
-          "length" : 17
+          "start" : 112,
+          "length" : 612
         },
         {
           "activity" : "generate2",
-          "start" : 183,
-          "length" : 39
+          "start" : 184,
+          "length" : 4070
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 388,
+          "length" : 32
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 402,
+          "length" : 1
         }
       ]
     },
@@ -212,33 +161,64 @@
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 92,
-          "length" : 39
+          "start" : 97,
+          "length" : 28
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 103,
+          "length" : 152
+        },
+        {
+          "activity" : "validate",
+          "start" : 106,
+          "length" : 4307
+        },
+        {
+          "activity" : "generate1",
+          "start" : 113,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 188,
+          "length" : 29
+        }
+      ]
+    },
+    {
+      "name" : "input/examples/medicationstatement-self-tylenol-with-compliance.json",
+      "size" : 2673,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 97,
+          "length" : 26
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 96,
+          "start" : 100,
           "length" : 1
         },
         {
           "activity" : "generateNarratives",
-          "start" : 100,
-          "length" : 38
+          "start" : 103,
+          "length" : 29
         },
         {
           "activity" : "validate",
-          "start" : 108,
-          "length" : 758
+          "start" : 111,
+          "length" : 563
         },
         {
           "activity" : "generate1",
-          "start" : 110,
-          "length" : 18
+          "start" : 113,
+          "length" : 38
         },
         {
           "activity" : "generate2",
-          "start" : 183,
-          "length" : 57
+          "start" : 188,
+          "length" : 27
         }
       ]
     }
