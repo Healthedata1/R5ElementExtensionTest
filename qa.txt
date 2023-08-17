@@ -3,7 +3,7 @@
 
 err = 4, warn = 2, info = 0
 IG Publisher Version: 1.3.28
-Generated Thu Aug 17 18:12:15 UTC 2023. FHIR version 4.0.1 for testing-sandbox#0.0.0 (canonical = http://www.fhir.org/guides/testing-sandbox)
+Generated Thu Aug 17 18:16:51 UTC 2023. FHIR version 4.0.1 for testing-sandbox#0.0.0 (canonical = http://www.fhir.org/guides/testing-sandbox)
  Build Errors : 0 / 0 / 0
  /home/runner/work/R5ElementExtensionTest/R5ElementExtensionTest/fsh-generated/resources/ImplementationGuide-testing-sandbox : 0 / 0 / 1
  /home/runner/work/R5ElementExtensionTest/R5ElementExtensionTest/input/examples/MedicationStatement-coded-oral-axid-with-compliance : 2 / 1 / 1
