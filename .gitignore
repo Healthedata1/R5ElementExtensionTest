@@ -14,4 +14,4 @@ Thumbs.db
 /output/
 SUSHI-GENERATED-FILES.mdv
 /my-notes/
-.github/workflows/build_deploy_to_ghp.yml
+/.github/workflows/build_deploy_to_ghp.yml
