@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a59b7b58-83a7-429b-b4f7-29aa3e98db14"/>
+  <id value="254d1777-8dc5-4739-8346-13b4218063e1"/>
   <meta>
-    <lastUpdated value="2023-08-17T17:47:41.929+00:00"/>
+    <lastUpdated value="2023-08-17T18:02:13.597+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status"/>
+    <fullUrl value="http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status"/>
     <resource>
       <ValueSet>
         <text>
@@ -91,7 +91,7 @@
             </table>
           </div>
         </text>
-        <url value="http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status"/>
+        <url value="http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status"/>
         <version value="0.0.0"/>
         <name value="USCoreMedicationstatementStatus"/>
         <title value="US Core Medication Status Codes"/>
@@ -106,8 +106,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:c569edd1-f0b6-4648-b7ae-9ac391b806d1"/>
-          <timestamp value="2023-08-17T17:49:07+00:00"/>
+          <identifier value="urn:uuid:65729e90-da4c-4286-adc6-137fdbe5d206"/>
+          <timestamp value="2023-08-17T18:02:58+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>

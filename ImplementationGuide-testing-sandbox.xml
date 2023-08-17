@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="uscdi4-sandbox"/>
+  <id value="testing-sandbox"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>USCDI4_1Sandbox</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox</pre><div><p>This is a <strong>Healthedata1</strong> sandbox for creation of USCDI4 resources and examples</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Testing_Sandbox</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox</pre><div><p>This is a <strong>Healthedata1</strong>  testing sandbox for creation of R4 resources with R5 element extension examples</p>
 </div></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
@@ -12,12 +12,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
   </extension>
-  <url value="http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox"/>
+  <url value="http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox"/>
   <version value="0.0.0"/>
-  <name value="USCDI4_1Sandbox"/>
-  <title value="HealtheData1 USCDI4 Sandbox"/>
+  <name value="Testing_Sandbox"/>
+  <title value="HealtheData1 Testing Sandbox"/>
   <status value="active"/>
-  <date value="2023-08-17T17:47:41+00:00"/>
+  <date value="2023-08-17T18:02:13+00:00"/>
   <publisher value="Health eData Inc"/>
   <contact>
     <telecom>
@@ -25,14 +25,14 @@
       <value value="mailto:ehaas@healthedatainc.com"/>
     </telecom>
   </contact>
-  <description value="This is a **Healthedata1** sandbox for creation of USCDI4 resources and examples"/>
+  <description value="This is a **Healthedata1**  testing sandbox for creation of R4 resources with R5 element extension examples"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
       <code value="US"/>
     </coding>
   </jurisdiction>
-  <packageId value="uscdi4-sandbox"/>
+  <packageId value="testing-sandbox"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -47,31 +47,6 @@
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
     <packageId value="hl7.fhir.us.core"/>
     <version value="6.1.0"/>
-  </dependsOn>
-  <dependsOn id="hl7_fhir_uv_sdc">
-    <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
-    <packageId value="hl7.fhir.uv.sdc"/>
-    <version value="3.0.0"/>
-  </dependsOn>
-  <dependsOn id="hl7_fhir_uv_bulkdata">
-    <uri value="http://hl7.org/fhir/uv/bulkdata/ImplementationGuide/hl7.fhir.uv.bulkdata"/>
-    <packageId value="hl7.fhir.uv.bulkdata"/>
-    <version value="2.0.0"/>
-  </dependsOn>
-  <dependsOn id="hl7_fhir_uv_smart_app_launch">
-    <uri value="http://hl7.org/fhir/smart-app-launch/ImplementationGuide/hl7.fhir.uv.smart-app-launch"/>
-    <packageId value="hl7.fhir.uv.smart-app-launch"/>
-    <version value="2.0.0"/>
-  </dependsOn>
-  <dependsOn id="vsac">
-    <uri value="http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"/>
-    <packageId value="us.nlm.vsac"/>
-    <version value="0.3.0"/>
-  </dependsOn>
-  <dependsOn id="uscdcphinvads">
-    <uri value="http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads"/>
-    <packageId value="us.cdc.phinvads"/>
-    <version value="0.12.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_extensions_r4">
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
@@ -228,7 +203,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://www.fhir.org/guides/uscdi4-sandbox/history.html"/>
+        <valueString value="http://www.fhir.org/guides/testing-sandbox/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -487,7 +462,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://www.fhir.org/guides/uscdi4-sandbox/history.html"/>
+        <valueString value="http://www.fhir.org/guides/testing-sandbox/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -603,7 +578,7 @@
       </reference>
       <name value="MedicationStatement Coded Oral Axid with Adherence Extension Example"/>
       <description value="This example demonstrates medication adherence for a prescribed medication example using an R5 element extension on the MedicationStatement. The extension value uses MedicationStatement Adherence Codes."/>
-      <exampleCanonical value="http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"/>
+      <exampleCanonical value="http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -614,7 +589,7 @@
       </reference>
       <name value="MedicationStatement Self Tylenol with Compliance Extension Example"/>
       <description value="This example demonstrates medication adherence for a self-prescribed Tylenol example for the using an extension on the MedicationRequest. The extension value uses MedicationStatement Adherence Codes."/>
-      <exampleCanonical value="http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"/>
+      <exampleCanonical value="http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

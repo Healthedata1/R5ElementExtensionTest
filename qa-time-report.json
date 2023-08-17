@@ -1,224 +1,219 @@
 {
-  "date" : "Thu, 17 Aug, 2023 17:47:41 +0000",
+  "date" : "Thu, 17 Aug, 2023 18:02:13 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
-      "name" : "/fsh-generated/resources/ImplementationGuide-uscdi4-sandbox.json",
-      "size" : 7363,
+      "name" : "/fsh-generated/resources/ImplementationGuide-testing-sandbox.json",
+      "size" : 6394,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 98,
-          "length" : 688
+          "start" : 65,
+          "length" : 519
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 100,
-          "length" : 4
+          "start" : 67,
+          "length" : 5
         },
         {
           "activity" : "generateNarratives",
-          "start" : 100,
-          "length" : 716
+          "start" : 67,
+          "length" : 531
         },
         {
           "activity" : "validate",
-          "start" : 105,
-          "length" : 1470
+          "start" : 70,
+          "length" : 1178
         },
         {
           "activity" : "generate1",
-          "start" : 112,
-          "length" : 274
+          "start" : 76,
+          "length" : 149
         },
         {
           "activity" : "generate2",
-          "start" : 116,
-          "length" : 264
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 190,
-          "length" : 1
+          "start" : 77,
+          "length" : 139
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 388,
-          "length" : 4
+          "start" : 267,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/StructureDefinition-uscore-medicationstatement.json",
+      "size" : 16324,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 64,
+          "length" : 275
+        },
+        {
+          "activity" : "load",
+          "start" : 65,
+          "length" : 342
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 65,
+          "length" : 1311
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 67,
+          "length" : 1305
+        },
+        {
+          "activity" : "validate",
+          "start" : 69,
+          "length" : 1018
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 72,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 72,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 76,
+          "length" : 334
+        },
+        {
+          "activity" : "generate2",
+          "start" : 77,
+          "length" : 2649
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 267,
+          "length" : 23
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 402,
+          "start" : 276,
           "length" : 1
         }
       ]
     },
     {
       "name" : "input/resources/ValueSet-uscore-medicationstatement-status.json",
-      "size" : 1416,
+      "size" : 1417,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 97,
-          "length" : 14
+          "start" : 64,
+          "length" : 11
         },
         {
           "activity" : "load",
-          "start" : 97,
-          "length" : 19
+          "start" : 64,
+          "length" : 17
         },
         {
           "activity" : "generateNarratives",
-          "start" : 101,
-          "length" : 279
+          "start" : 69,
+          "length" : 128
         },
         {
           "activity" : "validate",
-          "start" : 103,
-          "length" : 770
+          "start" : 69,
+          "length" : 548
         },
         {
           "activity" : "generate1",
-          "start" : 112,
-          "length" : 43
+          "start" : 76,
+          "length" : 14
         },
         {
           "activity" : "generate2",
-          "start" : 116,
-          "length" : 68111
+          "start" : 80,
+          "length" : 29408
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 388,
+          "start" : 268,
           "length" : 1
         }
       ]
     },
     {
-      "name" : "input/resources/StructureDefinition-uscore-medicationstatement.json",
-      "size" : 16322,
+      "name" : "input/examples/medicationstatement-self-tylenol-with-compliance.json",
+      "size" : 2674,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 97,
-          "length" : 409
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 97,
-          "length" : 1
-        },
-        {
-          "activity" : "load",
-          "start" : 97,
-          "length" : 363
-        },
-        {
-          "activity" : "generateSnapshots",
-          "start" : 98,
-          "length" : 1613
+          "start" : 64,
+          "length" : 21
         },
         {
           "activity" : "generateNarratives",
-          "start" : 101,
-          "length" : 1556
+          "start" : 69,
+          "length" : 102
         },
         {
           "activity" : "validate",
-          "start" : 103,
-          "length" : 1488
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 106,
-          "length" : 2
+          "start" : 72,
+          "length" : 2804
         },
         {
           "activity" : "generate1",
-          "start" : 112,
-          "length" : 612
+          "start" : 76,
+          "length" : 14
         },
         {
           "activity" : "generate2",
-          "start" : 184,
-          "length" : 4070
+          "start" : 109,
+          "length" : 40
         },
         {
-          "activity" : "generateValidationPack",
-          "start" : 388,
-          "length" : 32
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 402,
+          "activity" : "generateExampleZip",
+          "start" : 267,
           "length" : 1
         }
       ]
     },
     {
       "name" : "input/examples/MedicationStatement-coded-oral-axid-with-compliance.json",
-      "size" : 3266,
+      "size" : 3267,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 97,
-          "length" : 28
+          "start" : 64,
+          "length" : 23
         },
         {
           "activity" : "generateNarratives",
-          "start" : 103,
-          "length" : 152
-        },
-        {
-          "activity" : "validate",
-          "start" : 106,
-          "length" : 4307
-        },
-        {
-          "activity" : "generate1",
-          "start" : 113,
-          "length" : 37
-        },
-        {
-          "activity" : "generate2",
-          "start" : 188,
-          "length" : 29
-        }
-      ]
-    },
-    {
-      "name" : "input/examples/medicationstatement-self-tylenol-with-compliance.json",
-      "size" : 2673,
-      "processes" : [
-        {
-          "activity" : "loadResources",
-          "start" : 97,
-          "length" : 26
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 100,
-          "length" : 1
-        },
-        {
-          "activity" : "generateNarratives",
-          "start" : 103,
-          "length" : 29
-        },
-        {
-          "activity" : "validate",
-          "start" : 111,
-          "length" : 563
-        },
-        {
-          "activity" : "generate1",
-          "start" : 113,
+          "start" : 69,
           "length" : 38
         },
         {
+          "activity" : "validate",
+          "start" : 74,
+          "length" : 623
+        },
+        {
+          "activity" : "generate1",
+          "start" : 76,
+          "length" : 15
+        },
+        {
           "activity" : "generate2",
-          "start" : 188,
-          "length" : 27
+          "start" : 109,
+          "length" : 17
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 267,
+          "length" : 1
         }
       ]
     }

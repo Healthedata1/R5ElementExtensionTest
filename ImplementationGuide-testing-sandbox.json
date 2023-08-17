@@ -1,9 +1,9 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "uscdi4-sandbox",
+  "id" : "testing-sandbox",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>USCDI4_1Sandbox</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox</pre><div><p>This is a <strong>Healthedata1</strong> sandbox for creation of USCDI4 resources and examples</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Testing_Sandbox</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox</pre><div><p>This is a <strong>Healthedata1</strong>  testing sandbox for creation of R4 resources with R5 element extension examples</p>\n</div></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -13,12 +13,12 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
     "valueInteger" : 1
   }],
-  "url" : "http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox",
+  "url" : "http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox",
   "version" : "0.0.0",
-  "name" : "USCDI4_1Sandbox",
-  "title" : "HealtheData1 USCDI4 Sandbox",
+  "name" : "Testing_Sandbox",
+  "title" : "HealtheData1 Testing Sandbox",
   "status" : "active",
-  "date" : "2023-08-17T17:47:41+00:00",
+  "date" : "2023-08-17T18:02:13+00:00",
   "publisher" : "Health eData Inc",
   "contact" : [{
     "telecom" : [{
@@ -26,14 +26,14 @@
       "value" : "mailto:ehaas@healthedatainc.com"
     }]
   }],
-  "description" : "This is a **Healthedata1** sandbox for creation of USCDI4 resources and examples",
+  "description" : "This is a **Healthedata1**  testing sandbox for creation of R4 resources with R5 element extension examples",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "US"
     }]
   }],
-  "packageId" : "uscdi4-sandbox",
+  "packageId" : "testing-sandbox",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -51,36 +51,6 @@
     "uri" : "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
     "packageId" : "hl7.fhir.us.core",
     "version" : "6.1.0"
-  },
-  {
-    "id" : "hl7_fhir_uv_sdc",
-    "uri" : "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
-    "packageId" : "hl7.fhir.uv.sdc",
-    "version" : "3.0.0"
-  },
-  {
-    "id" : "hl7_fhir_uv_bulkdata",
-    "uri" : "http://hl7.org/fhir/uv/bulkdata/ImplementationGuide/hl7.fhir.uv.bulkdata",
-    "packageId" : "hl7.fhir.uv.bulkdata",
-    "version" : "2.0.0"
-  },
-  {
-    "id" : "hl7_fhir_uv_smart_app_launch",
-    "uri" : "http://hl7.org/fhir/smart-app-launch/ImplementationGuide/hl7.fhir.uv.smart-app-launch",
-    "packageId" : "hl7.fhir.uv.smart-app-launch",
-    "version" : "2.0.0"
-  },
-  {
-    "id" : "vsac",
-    "uri" : "http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac",
-    "packageId" : "us.nlm.vsac",
-    "version" : "0.3.0"
-  },
-  {
-    "id" : "uscdcphinvads",
-    "uri" : "http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads",
-    "packageId" : "us.cdc.phinvads",
-    "version" : "0.12.0"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r4",
@@ -294,7 +264,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://www.fhir.org/guides/uscdi4-sandbox/history.html"
+        "valueString" : "http://www.fhir.org/guides/testing-sandbox/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -650,7 +620,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://www.fhir.org/guides/uscdi4-sandbox/history.html"
+        "valueString" : "http://www.fhir.org/guides/testing-sandbox/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -807,7 +777,7 @@
       },
       "name" : "MedicationStatement Coded Oral Axid with Adherence Extension Example",
       "description" : "This example demonstrates medication adherence for a prescribed medication example using an R5 element extension on the MedicationStatement. The extension value uses MedicationStatement Adherence Codes.",
-      "exampleCanonical" : "http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"
+      "exampleCanonical" : "http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"
     },
     {
       "extension" : [{
@@ -819,7 +789,7 @@
       },
       "name" : "MedicationStatement Self Tylenol with Compliance Extension Example",
       "description" : "This example demonstrates medication adherence for a self-prescribed Tylenol example for the using an extension on the MedicationRequest. The extension value uses MedicationStatement Adherence Codes.",
-      "exampleCanonical" : "http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"
+      "exampleCanonical" : "http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"
     },
     {
       "extension" : [{

@@ -1,9 +1,9 @@
 {
-  "url" : "http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox",
-  "name" : "USCDI4_1Sandbox",
-  "package-id" : "uscdi4-sandbox",
+  "url" : "http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox",
+  "name" : "Testing_Sandbox",
+  "package-id" : "testing-sandbox",
   "ig-ver" : "0.0.0",
-  "date" : "Thu, 17 Aug, 2023 17:47:41 +0000",
+  "date" : "Thu, 17 Aug, 2023 18:02:13 +0000",
   "errs" : 4,
   "warnings" : 2,
   "hints" : 0,

@@ -28,18 +28,18 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox"/>
+        <valueCanonical value="http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox"/>
+        <valueCanonical value="http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"/>
+  <url value="http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"/>
   <version value="0.0.0"/>
   <name value="USCoreMedicationStatement"/>
   <title value="US Core MedicationStatement"/>
@@ -625,7 +625,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status"/>
+        <valueSet value="http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -2053,7 +2053,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status"/>
+        <valueSet value="http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status"/>
       </binding>
     </element>
     <element id="MedicationStatement.medication[x]">

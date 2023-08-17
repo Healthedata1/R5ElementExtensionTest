@@ -1,6 +1,6 @@
 {
   "version" : "0.0.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20230817174603",
-  "name" : "uscdi4-sandbox"
+  "date" : "20230817180108",
+  "name" : "testing-sandbox"
 }

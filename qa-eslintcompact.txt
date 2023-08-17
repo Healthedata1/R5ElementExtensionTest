@@ -5,9 +5,9 @@
 /home/runner/work/R5ElementExtensionTest/R5ElementExtensionTest/input/examples/medicationstatement-self-tylenol-with-compliance.json: line 64, col 30, Error - Unknown Code System 'http://hl7.org/fhir/CodeSystem/medication-statement-adherence' (CODEINVALID)
 /home/runner/work/R5ElementExtensionTest/R5ElementExtensionTest/input/examples/medicationstatement-self-tylenol-with-compliance.json: line 65, col 106, Error - URL value 'http://hl7.org/fhir/CodeSystem/medication-statement-adherence' does not resolve (INVALID)
 
-USCDI4_1Sandbox : Validation Results
+Testing_Sandbox : Validation Results
 =========================================
 
 err = 4, warn = 2, info = 0
 IG Publisher Version: 1.3.28
-Generated Thu Aug 17 17:52:46 UTC 2023. FHIR version 4.0.1 for uscdi4-sandbox#0.0.0 (canonical = http://www.fhir.org/guides/uscdi4-sandbox)
+Generated Thu Aug 17 18:05:45 UTC 2023. FHIR version 4.0.1 for testing-sandbox#0.0.0 (canonical = http://www.fhir.org/guides/testing-sandbox)

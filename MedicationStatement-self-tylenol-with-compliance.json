@@ -10,7 +10,7 @@
       "url" : "http://hl7.org/fhir/StructureDefinition/instance-description",
       "valueMarkdown" : "This example demonstrates medication adherence for a self-prescribed Tylenol example for the using an extension on the MedicationRequest. The extension value uses MedicationStatement Adherence Codes."
     }],
-    "profile" : ["http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"]
+    "profile" : ["http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"]
   },
   "text" : {
     "status" : "extensions",

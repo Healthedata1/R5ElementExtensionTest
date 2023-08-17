@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox> a fhir:ImplementationGuide ;
+<http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "uscdi4-sandbox"] ; # 
+  fhir:id [ fhir:v "testing-sandbox"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>USCDI4_1Sandbox</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox</pre><div><p>This is a <strong>Healthedata1</strong> sandbox for creation of USCDI4 resources and examples</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Testing_Sandbox</h2><p>The official URL for this implementation guide is: </p><pre>http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox</pre><div><p>This is a <strong>Healthedata1</strong>  testing sandbox for creation of R4 resources with R5 element extension examples</p>\n</div></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
@@ -19,12 +19,12 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "1"^^xsd:integer ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.0.0"] ; # 
-  fhir:name [ fhir:v "USCDI4_1Sandbox"] ; # 
-  fhir:title [ fhir:v "HealtheData1 USCDI4 Sandbox"] ; # 
+  fhir:name [ fhir:v "Testing_Sandbox"] ; # 
+  fhir:title [ fhir:v "HealtheData1 Testing Sandbox"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-08-17T17:47:41+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-17T18:02:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Health eData Inc"] ; # 
   fhir:contact ( [
      fhir:telecom ( [
@@ -32,14 +32,14 @@
        fhir:value [ fhir:v "mailto:ehaas@healthedatainc.com" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "This is a **Healthedata1** sandbox for creation of USCDI4 resources and examples"] ; # 
+  fhir:description [ fhir:v "This is a **Healthedata1**  testing sandbox for creation of R4 resources with R5 element extension examples"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "US" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "uscdi4-sandbox"] ; # 
+  fhir:packageId [ fhir:v "testing-sandbox"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -62,46 +62,6 @@
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.us.core" ] ;
      fhir:version [ fhir:v "6.1.0" ]
-  ] [
-     fhir:id [ fhir:v "hl7_fhir_uv_sdc" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc>
-     ] ;
-     fhir:packageId [ fhir:v "hl7.fhir.uv.sdc" ] ;
-     fhir:version [ fhir:v "3.0.0" ]
-  ] [
-     fhir:id [ fhir:v "hl7_fhir_uv_bulkdata" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/uv/bulkdata/ImplementationGuide/hl7.fhir.uv.bulkdata"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/bulkdata/ImplementationGuide/hl7.fhir.uv.bulkdata>
-     ] ;
-     fhir:packageId [ fhir:v "hl7.fhir.uv.bulkdata" ] ;
-     fhir:version [ fhir:v "2.0.0" ]
-  ] [
-     fhir:id [ fhir:v "hl7_fhir_uv_smart_app_launch" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/smart-app-launch/ImplementationGuide/hl7.fhir.uv.smart-app-launch"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/smart-app-launch/ImplementationGuide/hl7.fhir.uv.smart-app-launch>
-     ] ;
-     fhir:packageId [ fhir:v "hl7.fhir.uv.smart-app-launch" ] ;
-     fhir:version [ fhir:v "2.0.0" ]
-  ] [
-     fhir:id [ fhir:v "vsac" ] ;
-     fhir:uri [
-       fhir:v "http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac"^^xsd:anyURI ;
-       fhir:link <http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac>
-     ] ;
-     fhir:packageId [ fhir:v "us.nlm.vsac" ] ;
-     fhir:version [ fhir:v "0.3.0" ]
-  ] [
-     fhir:id [ fhir:v "uscdcphinvads" ] ;
-     fhir:uri [
-       fhir:v "http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads"^^xsd:anyURI ;
-       fhir:link <http://fhir.org/packages/us.cdc.phinvads/ImplementationGuide/us.cdc.phinvads>
-     ] ;
-     fhir:packageId [ fhir:v "us.cdc.phinvads" ] ;
-     fhir:version [ fhir:v "0.12.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_uv_extensions_r4" ] ;
      fhir:uri [
@@ -280,7 +240,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://www.fhir.org/guides/uscdi4-sandbox/history.html" ]
+         fhir:value [ fhir:v "http://www.fhir.org/guides/testing-sandbox/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -571,7 +531,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://www.fhir.org/guides/uscdi4-sandbox/history.html" ]
+         fhir:value [ fhir:v "http://www.fhir.org/guides/testing-sandbox/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -698,14 +658,14 @@
          fhir:value [ fhir:v "MedicationStatement" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://www.fhir.org/guides/uscdi4-sandbox/MedicationStatement/coded-oral-axid-with-compliance> ;
+         fhir:link <http://www.fhir.org/guides/testing-sandbox/MedicationStatement/coded-oral-axid-with-compliance> ;
          fhir:reference [ fhir:v "MedicationStatement/coded-oral-axid-with-compliance" ]
        ] ;
        fhir:name [ fhir:v "MedicationStatement Coded Oral Axid with Adherence Extension Example" ] ;
        fhir:description [ fhir:v "This example demonstrates medication adherence for a prescribed medication example using an R5 element extension on the MedicationStatement. The extension value uses MedicationStatement Adherence Codes." ] ;
        fhir:example [
-         fhir:v "http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"^^xsd:anyURI ;
-         fhir:link <http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement>
+         fhir:v "http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"^^xsd:anyURI ;
+         fhir:link <http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement>
        ]
      ] [
        fhir:extension ( [
@@ -713,14 +673,14 @@
          fhir:value [ fhir:v "MedicationStatement" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://www.fhir.org/guides/uscdi4-sandbox/MedicationStatement/self-tylenol-with-compliance> ;
+         fhir:link <http://www.fhir.org/guides/testing-sandbox/MedicationStatement/self-tylenol-with-compliance> ;
          fhir:reference [ fhir:v "MedicationStatement/self-tylenol-with-compliance" ]
        ] ;
        fhir:name [ fhir:v "MedicationStatement Self Tylenol with Compliance Extension Example" ] ;
        fhir:description [ fhir:v "This example demonstrates medication adherence for a self-prescribed Tylenol example for the using an extension on the MedicationRequest. The extension value uses MedicationStatement Adherence Codes." ] ;
        fhir:example [
-         fhir:v "http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement"^^xsd:anyURI ;
-         fhir:link <http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement>
+         fhir:v "http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement"^^xsd:anyURI ;
+         fhir:link <http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement>
        ]
      ] [
        fhir:extension ( [
@@ -728,7 +688,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status> ;
+         fhir:link <http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status> ;
          fhir:reference [ fhir:v "ValueSet/uscore-medicationstatement-status" ]
        ] ;
        fhir:name [ fhir:v "US Core Medication Status Codes" ] ;
@@ -740,7 +700,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement> ;
+         fhir:link <http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement> ;
          fhir:reference [ fhir:v "StructureDefinition/us-core-medicationstatement" ]
        ] ;
        fhir:name [ fhir:v "US Core MedicationStatement" ] ;

@@ -1,5 +1,5 @@
 {
-  "package": "uscdi4-sandbox",
+  "package": "testing-sandbox",
   "version": "0.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "US",
@@ -7,7 +7,7 @@
   "profiles": {
     "MedicationStatement": [
       {
-        "url": "http://www.fhir.org/guides/uscdi4-sandbox/StructureDefinition/us-core-medicationstatement",
+        "url": "http://www.fhir.org/guides/testing-sandbox/StructureDefinition/us-core-medicationstatement",
         "title": "US Core MedicationStatement"
       }
     ]

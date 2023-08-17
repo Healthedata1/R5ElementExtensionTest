@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox"
+        "valueCanonical" : "http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox"
       }]
     }
   },
@@ -21,11 +21,11 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://www.fhir.org/guides/uscdi4-sandbox/ImplementationGuide/uscdi4-sandbox"
+        "valueCanonical" : "http://www.fhir.org/guides/testing-sandbox/ImplementationGuide/testing-sandbox"
       }]
     }
   }],
-  "url" : "http://www.fhir.org/guides/uscdi4-sandbox/ValueSet/uscore-medicationstatement-status",
+  "url" : "http://www.fhir.org/guides/testing-sandbox/ValueSet/uscore-medicationstatement-status",
   "version" : "0.0.0",
   "name" : "USCoreMedicationstatementStatus",
   "title" : "US Core Medication Status Codes",
